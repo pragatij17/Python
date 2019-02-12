@@ -9,11 +9,11 @@ elif(var==2):
 	os.system('calender')
 elif(var==3):
 	os.system('shutdown -H -T -5')
-elif(var==4)
+elif(var==4):
 	os.system('hostname -I')
-elif(var==5)
+elif(var==5):
 	os.system('ifconfig')
-elif(var==6)
+elif(var==6):
 	wb=input("Enter Keywords")
 	webbrowser.open_new_tab('https://www.google.com/search?q={}.format(wb)')
 else:
